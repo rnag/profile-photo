@@ -2,11 +2,15 @@
 Profile Photo
 ~~~~~~~~~~~~~
 
-Crop Image to create Profile Pic or Headshot
+Center + Crop Image to create a Profile Pic or Headshot
 
 Sample Usage:
 
-    >>> import profile_photo
+    >>> from profile_photo import create_headshot
+    >>> photo = create_headshot(file_path='/path/to/image')
+    >>> photo.show()
+    >>> # Optional: cache the Rekognition API responses
+    >>> photo.save_responses('/path/to/folder')
 
 For full documentation and more advanced usage, please see
 <https://profile-photo.readthedocs.io>.
@@ -16,12 +20,14 @@ For full documentation and more advanced usage, please see
 """
 
 __all__ = [
-
+    'create_headshot',
 ]
 
 import logging
 
+from .main import create_headshot
+from .log import LOG
 
 # Set up logging to ``/dev/null`` like a library is supposed to.
 # http://docs.python.org/3.3/howto/logging.html#configuring-logging-for-a-library
-logging.getLogger('profile_photo').addHandler(logging.NullHandler())
+LOG.addHandler(logging.NullHandler())

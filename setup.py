@@ -10,7 +10,11 @@ package_name = 'profile_photo'
 
 packages = find_packages(include=[package_name, f'{package_name}.*'])
 
-requires = [ ]
+requires = [
+    'opencv-python-headless>=4.6.0.66',
+    'dataclass_wizard>=0.21.0',
+    'pillow>=9.3.0',
+]
 
 test_requirements = [
     'pytest~=7.0.1',
@@ -51,14 +55,14 @@ setup(
         'Natural Language :: English',
         'Programming Language :: Python :: 3 :: Only',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Programming Language :: Python'
 ],
     test_suite='tests',
     tests_require=test_requirements,
+    extras_require={'all': 'boto3'},
     zip_safe=False
 )

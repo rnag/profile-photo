@@ -22,13 +22,9 @@ Profile Photo
      :alt: Updates
 
 
+*Center* + *Crop* Image to create a Profile Pic or Headshot_.
 
-Crop Image to create Profile Pic or Headshot
-
-
-* Free software: MIT license
-* Documentation: https://profile-photo.readthedocs.io.
-
+.. _Headshot: https://www.nfi.edu/headshot-photo
 
 Features
 --------

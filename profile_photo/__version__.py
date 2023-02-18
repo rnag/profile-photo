@@ -1,9 +1,9 @@
 """
-Profile Photo - Crop Image to create Profile Pic or Headshot
+Profile Photo - Center + Crop Image to create a Profile Pic or Headshot
 """
 
 __title__ = 'profile-photo'
-__description__ = 'Crop Image to create Profile Pic or Headshot'
+__description__ = 'Center + Crop Image to create a Profile Pic or Headshot'
 __url__ = 'https://github.com/rnag/profile-photo'
 __version__ = '0.1.0'
 __author__ = 'Ritvik Nag'
