@@ -24,6 +24,9 @@ Profile Photo
 
 *Center* + *Crop* Image to create a Profile Pic or Headshot_.
 
+Check out `example images`_ on GitHub for sample use cases and results.
+
+.. _example images: https://github.com/rnag/profile-photo/tree/main/examples
 .. _Headshot: https://www.nfi.edu/headshot-photo
 
 Features
