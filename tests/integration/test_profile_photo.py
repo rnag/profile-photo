@@ -14,11 +14,11 @@ def test_create_headshot_and_save_all(examples, responses, image):
 
     photo = create_headshot(examples / image, profile=profile)
 
-    def get_filename(filename: str | None, api: str):
-        return responses / (f'{filename}_{api}.json' if filename else f'{api}_resp.json')
+    def get_filename(file_name: str | None, api: str):
+        return responses / f'{file_name}_{api}.json'
 
     # can also be achieved by passing `output_dir` above
-    photo.save_all(examples, get_filename)
+    photo.save_all(examples, get_response_filename=get_filename)
 
 
 @pytest.mark.parametrize('image', images)

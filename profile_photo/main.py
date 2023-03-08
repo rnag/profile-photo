@@ -27,6 +27,24 @@ def create_headshot(
     debug: bool = False,
     output_dir: PathLike[str] | PathLike[bytes] | str = None,
 ) -> ProfilePhoto:
+    """Create a Headshot Photo of a person, given an image.
+
+    :param filepath_or_bytes: Path to a local file, or image data as Bytes
+    :param file_ext: File extension or image type of output data (optional),
+      defaults to the extension of input filename, or `.jpg` if a filename
+      is not passed in.
+    :param faces: Cached response for the image, from the AWS Rekognition DetectFaces API
+    :param labels: Cached response for the image, from the AWS Rekognition DetectLabels API
+    :param region: AWS region, defaults to `us-east-1` if not specified
+    :param profile: AWS profile name, used for API calls to AWS Rekognition
+    :param bucket: Bucket name, if the image data lives in an S3 Bucket or is > 5MB in size
+    :param key: Path to the image (object) in the S3 Bucket
+    :param debug: True to log debug messages and show the image
+    :param output_dir: Path to a local folder to save the output image
+      and API responses (optional)
+    :return: a :class:`ProfilePhoto` object, containing the output image and API response data
+
+    """
 
     futures = {}
 
