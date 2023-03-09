@@ -49,14 +49,15 @@ environment.
 
 ## Features
 
--   Exports a helper function, `create_headshot` used to create a
-    close-up or headshot of the primary face in a photo or image
+-   Exports a helper function, [`create_headshot`](https://profile-photo.readthedocs.io/en/latest/profile_photo.html#profile_photo.create_headshot),
+    to create a
+    close-up or headshot of the primary face in a photo or image.
 -   Leverages [Amazon
     Rekognition](https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html)
-    to detect bounding boxes of a person\'s Face and relevant Labels,
-    such as *Person*
+    to detect bounding boxes of a person's *Face* and relevant Labels,
+    such as *Person*.
 -   Exposes helper methods to save the result image (*cropped*) as well
-    as API responses to a local folder
+    as API responses to a local folder.
 
 ## Usage
 
@@ -138,14 +139,14 @@ Rekognition](https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html)
 APIs to detect bounding boxes on a Face and Person in a photo.
 
 It then uses custom, in-house logic to determine the X/Y coordinates for
-cropping. This mainly involves \"blowing up\" or enlarging the Face
+cropping. This mainly involves "blowing up" or enlarging the Face
 bounding box, but then correcting the coordinates as needed by the
 Person box. This logic has been fine-tuned based on what I have found
 provide the best overall results for generic images (not necessary
 profile photos).
 
 In the future, other ideas other than *Rekognition* might be considered
-\--such as existing machine learning approaches or even a solution with
+-- such as existing machine learning approaches or even a solution with
 the `opencv` library in Python alone.
 
 ## Future Ideas
