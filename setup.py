@@ -44,8 +44,7 @@ setup(
         'Source': 'https://github.com/rnag/profile-photo',
     },
     license=about['__license__'],
-    # TODO add more relevant keywords as needed
-    keywords=['profile-photo'],
+    keywords=['profile', 'headshot', 'photo', 'crop', 'profile-photo', 'rekognition'],
     classifiers=[
         # Ref: https://pypi.org/classifiers/
         # 'Development Status :: 5 - Production/Stable',
