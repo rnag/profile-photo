@@ -6,36 +6,35 @@
 [![Documentation Status](https://readthedocs.org/projects/profile-photo/badge/?version=latest)](https://profile-photo.readthedocs.io/en/latest/?version=latest)
 [![Updates](https://pyup.io/repos/github/rnag/profile-photo/shield.svg)](https://pyup.io/repos/github/rnag/profile-photo/)
 
-
-<p style="display: flex;align-items: center;justify-content: center;">
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/boy-1.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/boy-1-out.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/construction-worker-1.jpeg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/construction-worker-1-out.jpeg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/girl-1.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/girl-1-out.jpg" width="100" />
-</p>
-
-<p style="display: flex;align-items: center;justify-content: center;">
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/girl-2.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/girl-2-out.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/hoodie-1.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/hoodie-1-out.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/man-1.jpeg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/man-1-out.jpeg" width="100" />
-</p>
-
-<p style="display: flex;align-items: center;justify-content: center;">
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/woman-1.png" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/woman-1-out.png" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/woman-2.jpeg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/woman-2-out.jpeg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/wonder-woman-1.jpeg" width="100" />
-  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/wonder-woman-1-out.jpeg" width="100" />
-</p>
-
 *Center* + *Crop* Image to create a Profile Pic or
 [Headshot](https://www.nfi.edu/headshot-photo).
+
+<p style="display: flex;align-items: center;justify-content: center;">
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/boy-1.jpg" height="100" width="130" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/boy-1-out.jpg" height="100" width="70" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/construction-worker-1.jpeg" height="100" width="110" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/construction-worker-1-out.jpeg" height="100" width="90" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/girl-1.jpg" height="100" width="120" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/girl-1-out.jpg" height="100" width="80" />
+</p>
+
+<p style="display: flex;align-items: center;justify-content: center;">
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/girl-2.jpg" height="100" width="120" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/girl-2-out.jpg" height="100" width="80" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/hoodie-1.jpg" height="100" width="110" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/hoodie-1-out.jpg" height="100" width="90" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/man-1.jpeg" height="100" width="120" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/man-1-out.jpeg" height="100" width="80" />
+</p>
+
+<p style="display: flex;align-items: center;justify-content: center;">
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/woman-1.png" height="100" width="90" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/woman-1-out.png" height="100" width="60" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/woman-2.jpeg" height="100" width="130" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/woman-2-out.jpeg" height="100" width="110" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/wonder-woman-1.jpeg" height="100" width="120" />
+  <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/wonder-woman-1-out.jpeg" height="100" width="90" />
+</p>
 
 ## Install
 
