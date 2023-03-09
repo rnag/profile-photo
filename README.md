@@ -49,7 +49,8 @@ environment.
 
 ## Features
 
--   Exports a helper function, [`create_headshot`](https://profile-photo.readthedocs.io/en/latest/profile_photo.html#profile_photo.create_headshot),
+
+-   Exports a helper function, <code><a href="https://profile-photo.readthedocs.io/en/latest/profile_photo.html#profile_photo.create_headshot">create_headshot</a></code>,
     to create a
     close-up or headshot of the primary face in a photo or image.
 -   Leverages [Amazon
@@ -152,7 +153,7 @@ the `opencv` library in Python alone.
 ## Future Ideas
 
 -   Support background removal with
-    [`rembg`](https://pypi.org/project/rembg).
+    <code><a href="https://pypi.org/project/rembg">rembg</a></code>.
 -   Investigate other (alternate) approaches to *Rekognition* for
     detecting a face and person in a photo.
 

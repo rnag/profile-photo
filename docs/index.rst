@@ -1,11 +1,11 @@
-Welcome to Profile Photo's documentation!
-======================================
+
+.. mdinclude:: ../README.md
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
    :caption: Contents:
 
-   readme
    installation
    usage
    modules
