@@ -7,7 +7,7 @@ Center + Crop Image to create a Profile Pic or Headshot
 Sample Usage:
 
     >>> from profile_photo import create_headshot
-    >>> photo = create_headshot(file_path='/path/to/image')
+    >>> photo = create_headshot('/path/to/image')
     >>> photo.show()
     >>> # Optional: cache the Rekognition API responses
     >>> photo.save_responses('/path/to/folder')
