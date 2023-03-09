@@ -29,6 +29,17 @@ Check out `example images`_ on GitHub for sample use cases and results.
 .. _example images: https://github.com/rnag/profile-photo/tree/main/examples
 .. _Headshot: https://www.nfi.edu/headshot-photo
 
+Install
+-------
+
+.. code-block:: console
+
+    $ pip install profile-photo[all]
+
+The ``[all]`` `extra`_ installs ``boto3``, which is excluded by default - this assumes an AWS environment.
+
+.. _extra: https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-extras
+
 Features
 --------
 
@@ -124,6 +135,14 @@ best overall results for generic images (not necessary profile photos).
 In the future, other ideas other than *Rekognition* might be considered --
 such as existing machine learning approaches or even a solution
 with the ``opencv`` library in Python alone.
+
+Future Ideas
+------------
+
+* Support background removal with `rembg`_.
+* Investigate other (alternate) approaches to *Rekognition* for detecting a face and person in a photo.
+
+.. _rembg: https://pypi.org/project/rembg
 
 Credits
 -------
