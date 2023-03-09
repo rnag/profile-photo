@@ -19,20 +19,21 @@ requires = [
 test_requirements = [
     'pytest~=7.0.1',
     'pytest-cov~=3.0.0',
-    'pytest-runner~=5.3.1',]
+    'pytest-runner~=5.3.1',
+]
 
 about = {}
 exec((here / package_name / '__version__.py').read_text(), about)
 
-readme = (here / 'README.rst').read_text()
-history = (here / 'HISTORY.rst').read_text()
+readme = (here / 'README.md').read_text()
+history = (here / 'HISTORY.md').read_text()
 
 setup(
     name=about['__title__'],
     version=about['__version__'],
     description=about['__description__'],
     long_description=readme + '\n\n' + history,
-    long_description_content_type='text/x-rst',
+    long_description_content_type='text/markdown',
     author=about['__author__'],
     author_email=about['__author_email__'],
     url=about['__url__'],

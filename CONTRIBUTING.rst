@@ -101,7 +101,7 @@ Before you submit a pull request, check that it meets these guidelines:
 1. The pull request should include tests.
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
-   feature to the list in README.rst.
+   feature to the list in README.md.
 3. The pull request should work for Python 3.8, 3.9, 3.10 and 3.11, and for PyPy. Check
    https://github.com/rnag/profile-photo/actions/workflows/dev.yml
    and make sure that the tests pass for all supported Python versions.
@@ -130,7 +130,7 @@ Deploying
   $ git push
 
 A reminder for the maintainers on how to deploy.
-Make sure all your changes are committed (including an entry in HISTORY.rst).
+Make sure all your changes are committed (including an entry in HISTORY.md).
 Then run::
 
 $ bump2version patch # possible: major / minor / patch
