@@ -40,14 +40,22 @@
 
 ## Install
 
+Local tests:
+
+> The `[all]`
+[extra](https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-extras)
+installs `boto3`, which is excluded by default - this assumes an AWS
+environment.
+
 ``` console
 $ pip install profile-photo[all]
 ```
 
-The `[all]`
-[extra](https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-extras)
-installs `boto3`, which is excluded by default - this assumes an AWS
-environment.
+[AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-package.html) deployment:
+
+``` console
+$ pip install profile-photo
+```
 
 ## Features
 
