@@ -36,6 +36,8 @@
   <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/wonder-woman-1-out.jpeg" height="100" width="90" />
 </p>
 
+**If this project has helped you, please consider making a [donation](https://www.buymeacoffee.com/ritviknag).**
+
 ## Install
 
 ``` console
@@ -163,3 +165,15 @@ This package was created with
 [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the
 [rnag/cookiecutter-pypackage](https://github.com/rnag/cookiecutter-pypackage)
 project template.
+
+## Buy me a coffee
+
+Liked some of my work? Buy me a coffee (or more likely a beer)
+
+<a href="https://www.buymeacoffee.com/ritviknag" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;"></a>
+
+## License
+
+Copyright (c) 2023-present  [Ritvik Nag](https://github.com/rnag)
+
+Licensed under [MIT License](./LICENSE)
