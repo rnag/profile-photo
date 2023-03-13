@@ -1,5 +1,9 @@
 # History
 
+## 0.1.3 (2023-03-13)
+
+-   Update documentation to include sponsor links, and complete install instructions.
+
 ## 0.1.2 (2023-03-09)
 
 -   Embed images in documentation.

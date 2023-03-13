@@ -36,7 +36,7 @@
   <img src="https://raw.githubusercontent.com/rnag/profile-photo/main/examples/wonder-woman-1-out.jpeg" height="100" width="90" />
 </p>
 
-**If this project has helped you, please consider making a [donation](https://www.buymeacoffee.com/ritviknag).**
+**If this project has helped you, please consider making a** [donation](https://www.buymeacoffee.com/ritviknag).
 
 ## Install
 
