@@ -8,7 +8,7 @@ flake8>=3  # pyup: ignore
 tox==4.13.0
 coverage>=6.2
 Sphinx==7.2.6
-twine==4.0.2
+twine==5.0.0
 # Test requirements
 pytest==7.2.1
 pytest-cov==4.0.0
